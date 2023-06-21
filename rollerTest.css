@@ -7,7 +7,7 @@ header{
     text-align: center;
 }
 fieldset{
-    width:20vw;
+    width:200px;
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: black;
@@ -19,9 +19,10 @@ fieldset{
     flex-wrap: wrap;
     background-color:#202020; 
 }
-#button{
+#submitButton{
     width: 20vw;
     height: 10vw;
+    font-size: 30px;
 }
 #responses{
     width: 100vw;

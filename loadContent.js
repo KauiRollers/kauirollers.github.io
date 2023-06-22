@@ -21,10 +21,10 @@ function createQuestionTemplate(question) {
         
         <fieldset id = "${question.number}">
             <legend>${question.questionContent}</legend>
-            <input type="radio" name="${question.number}" value="a"><label>${question.a}</label><br>
-            <input type="radio" name="${question.number}" value="b"><label>${question.b}</label><br>
-            <input type="radio" name="${question.number}" value="c"><label>${question.c}</label><br>
-            <input type="radio" name="${question.number}" value="d"><label>${question.d}</label><br>
+            <input type="radio" name="${question.number}" value="a" style="width:50px;heigth:50px"><label>${question.a}</label><br>
+            <input type="radio" name="${question.number}" value="b" style="width:50px;heigth:50px"><label>${question.b}</label><br>
+            <input type="radio" name="${question.number}" value="c" style="width:50px;heigth:50px"><label>${question.c}</label><br>
+            <input type="radio" name="${question.number}" value="d" style="width:50px;heigth:50px"><label>${question.d}</label><br>
         </fieldset>
     `;
 

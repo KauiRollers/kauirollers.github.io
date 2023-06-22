@@ -7,13 +7,13 @@ body{
 }
 header{
   width: 100vw;
-  font-size: 5vw;
+  font-size: 7vw;
   font-family: monospace;
   text-align: center;
 }
 section{
   width: 100vw;
-  font-size: 3vw;
+  font-size: 4vw;
   font-family: monospace;
 }
 .question{
@@ -26,23 +26,23 @@ fieldset{
 }
 legend{
   font-family: fantasy;
-  font-size: 2vw;
+  font-size: 4vw;
 }
 
 input[type="radio"] + label {
   font-family: helvetica;
-  font-size: 1vw;
+  font-size: 3vw;
 }
 input[type="radio"]:checked + label {
-  font-size: 1.2vw;
+  font-size: 3.5vw;
 }
 #responses{
   width:100vw;
   font-family: mono;
-  font-size: 2vw;
+  font-size: 4vw;
 }
 #submitButton{
   width: 20vw;
   height: 10vw;
-  font-size:2vw;
+  font-size:4vw;
 }

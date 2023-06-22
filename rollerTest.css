@@ -1,33 +1,48 @@
-
+body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: black;
+  color:pink;
+}
 header{
-    font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: black;
-    color:white; 
-    text-align: center;
+  width: 100vw;
+  font-size: 5em;
+  font-family: monospace;
+  text-align: center;
+}
+section{
+  width: 100vw;
+  font-size: 3em;
+  font-family: monospace;
+}
+.question{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
 }
 fieldset{
-    width:200px;
-    font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: black;
-    color:white; 
+  width: 400px;
 }
-#questionnaireContainer{
-    width: 100vw;
-    display:flex;
-    flex-wrap: wrap;
-    background-color:#202020; 
+legend{
+  font-family: fantasy;
+  font-size: 1.5em;
 }
-#submitButton{
-    width: 20vw;
-    height: 10vw;
-    font-size: 30px;
+
+input[type="radio"] + label {
+  font-family: helvetica;
+  font-size: 1em;
+}
+input[type="radio"]:checked + label {
+  font-size: 1.2em;
 }
 #responses{
-    width: 100vw;
-    background-color:#202020;
-    color:white;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 30px;
+  width:100vw;
+  font-family: mono;
+  font-size: 2em;
+}
+#submitButton{
+  width: 20vw;
+  height: 10vw;
+  font-size: 2em;
 }

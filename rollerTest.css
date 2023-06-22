@@ -32,14 +32,14 @@ legend{
 
 input[type="radio"] + label {
   font-family: helvetica;
-  font-size: 3vw;
+  font-size: 4vw;
 }
 input[type="radio"]:checked + label {
-  font-size: 3.5vw;
+  font-size: 4.5vw;
 }
 #responses{
   width:100vw;
-  font-family: mono;
+  font-family: monospace;
   font-size: 4vw;
 }
 #submitButton{

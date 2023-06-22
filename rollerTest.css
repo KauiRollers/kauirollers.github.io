@@ -18,6 +18,7 @@ section{
 }
 .question{
   display: flex;
+  justify-content: flex-start;
   flex-direction: column;
   width: 100vw;
 }

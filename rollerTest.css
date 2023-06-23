@@ -8,13 +8,13 @@ body{
 header{
   width: 100vw;
   font-size: 7vw;
-  font-family: monospace;
+  font-family: 'Lobster', cursive;
   text-align: center;
 }
 section{
   width: 100vw;
   font-size: 5vw;
-  font-family: monospace;
+  font-family: 'PT Mono', monospace;
 }
 .question{
   display: flex;
@@ -26,15 +26,16 @@ fieldset{
 }
 
 legend{
-  font-family: fantasy;
+  font-family: 'Montserrat', sans-serif;
   font-size: 4vw;
+  color: whitesmoke;
 }
 
 
 #responses{
   width:100vw;
-  font-family: mono;
-  font-size: 3vw;
+  font-family: 'PT Mono', monospace;
+  font-size: 4vw;
 }
 .question input[type="radio"] {
   display: none;
@@ -50,9 +51,8 @@ legend{
 }
 
 .question label input[type="radio"]:checked + span {
-  color: yellow;
+  color: white;
   font-size: 4vw;
-  /* Otros estilos para el texto seleccionado */
 }
 
 #submitButton{

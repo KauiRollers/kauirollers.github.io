@@ -21,10 +21,22 @@ function createQuestionTemplate(question) {
         
         <fieldset id = "${question.number}">
             <legend>${question.questionContent}</legend>
-            <input type="radio" name="${question.number}" value="a" style="width:100px;heigth:100px"><label>${question.a}</label><br>
-            <input type="radio" name="${question.number}" value="b" style="width:100px;heigth:100px"><label>${question.b}</label><br>
-            <input type="radio" name="${question.number}" value="c" style="width:100px;heigth:100px"><label>${question.c}</label><br>
-            <input type="radio" name="${question.number}" value="d" style="width:100px;heigth:100px"><label>${question.d}</label><br>
+            <label for="a${question.number}">
+                <input type="radio" name="${question.number}" value="a" id="a${question.number}">
+                <span>${question.a}</span>
+            </label><br>
+            <label for="b${question.number}">
+                <input type="radio" name="${question.number}" value="b" id="b${question.number}">
+                <span>${question.b}</span>
+                </label><br>
+            <label for="c${question.number}">
+                <input type="radio" name="${question.number}" value="c" id="c${question.number}">
+                <span>${question.c}</span>
+            </label><br>
+            <label for="d${question.number}">
+                <input type="radio" name="${question.number}" value="d" id="d${question.number}">
+                <span>${question.d}</span>
+            </label><br>
         </fieldset>
     `;
 

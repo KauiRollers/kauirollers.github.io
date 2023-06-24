@@ -2,27 +2,35 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: black;
+  background-image: url("images/KauiRollersLatino.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   color:pink;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 header{
   width: 100vw;
   font-size: 7vw;
   font-family: 'Lobster', cursive;
   text-align: center;
+  background-color: rgba(0,0,0,0.9);
 }
 section{
   width: 100vw;
   font-size: 5vw;
   font-family: 'PT Mono', monospace;
+  background-color: rgba(0,0,0,0.8);
 }
 .question{
   display: flex;
   flex-direction: column;
   width: 100vw;
+  
 }
 fieldset{
   width: 90vw;
+  background-color: rgba(0,0,0,0.7);
 }
 
 legend{
@@ -36,15 +44,17 @@ legend{
   width:100vw;
   font-family: 'PT Mono', monospace;
   font-size: 4vw;
+  background-color: rgba(0,0,0,0.7);
+  
 }
 .question input[type="radio"] {
   display: none;
 }
 
 .question label {
-  font-family: 'Montserrat', sans-serif;
   font-size: 3vw;
   cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .question label:hover {
